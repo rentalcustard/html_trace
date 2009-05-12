@@ -1,12 +1,10 @@
-HTMLTrace
-=========
+= HTMLTrace
 
 Transparently adds <!-- trace --> comments into your rendered templates.
 
-A {Matthew Rudy Jacobs}[link:http://github.com/matthewrudy] plugin.
+A "Matthew Rudy Jacobs":http://github.com/matthewrudy plugin.
 
-Example
-=======
+== Example
 
 <ul id="user-list">
   <li id="user-1">Ralph</li>
@@ -29,4 +27,4 @@ becomes
 </ul>
 <!-- sites/users/list -->
 
-Copyright (c) 2009 {Gerhard Lazu}[link:http://github.com/gerhard], released under the MIT license
+Copyright (c) 2009 "Gerhard Lazu":http://github.com/gerhard, released under the MIT license
