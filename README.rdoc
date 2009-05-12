@@ -6,25 +6,25 @@ A "Matthew Rudy Jacobs":http://github.com/matthewrudy plugin.
 
 == Example
 
-<ul id="user-list">
-  <li id="user-1">Ralph</li>
-  <li id="user-2">Geraldine</li>
-</ul>
+  <ul id="user-list">
+    <li id="user-1">Ralph</li>
+    <li id="user-2">Geraldine</li>
+  </ul>
 
 becomes
 
-<!-- SITES/USERS/LIST -->
-<ul id="user-list">
+  <!-- SITES/USERS/LIST -->
+  <ul id="user-list">
 
-  <!-- SITES/USERS/USER -->
-  <li id="user-1">Ralph</li>
-  <!-- sites/users/user -->
+    <!-- SITES/USERS/USER -->
+    <li id="user-1">Ralph</li>
+    <!-- sites/users/user -->
 
-  <!-- SITES/USERS/USER -->
-  <li id="user-2">Geraldine</li>
-  <!-- sites/users/user -->
+    <!-- SITES/USERS/USER -->
+    <li id="user-2">Geraldine</li>
+    <!-- sites/users/user -->
 
-</ul>
-<!-- sites/users/list -->
+  </ul>
+  <!-- sites/users/list -->
 
 Copyright (c) 2009 "Gerhard Lazu":http://github.com/gerhard, released under the MIT license
