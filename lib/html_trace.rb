@@ -14,7 +14,7 @@ module ActionController
   class Base
     # render_for_file(template, status = nil, use_full_path = false, locals = {})
     def render_for_file_with_html_trace(template, *args)
-			template_path - template.respond_to?(:relative_path) ? template.relative_path : template
+			template_path = template.respond_to?(:relative_path) ? template.relative_path : template
       "\n<!-- #{template_path.upcase} >>> -->\n" + render_for_file_without_html_trace(template, *args) + "\n<!-- <<< #{template_path.downcase} -->"
     end
     alias_method_chain :render_for_file, :html_trace
